@@ -1,0 +1,16 @@
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 10px;
+  .form-item{
+    display: flex;
+    flex-direction: column;
+  }
+  .actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
